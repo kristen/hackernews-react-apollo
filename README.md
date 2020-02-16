@@ -1,6 +1,19 @@
+This project was created from following the [React + Apollo Tutorial](https://www.howtographql.com/react-apollo/0-introduction/) on howtographql.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Start the backend server
+
+```
+cd server
+yarn install
+yarn prisma deploy
+yarn start
+```
+
+More detailed instructions can be found at https://www.howtographql.com/react-apollo/1-getting-started/.
+
+## Start the front end server
 
 In the project directory, you can run:
 
